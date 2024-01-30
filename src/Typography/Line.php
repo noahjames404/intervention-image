@@ -45,6 +45,10 @@ class Line
         return $this;
     }
 
+    public function getText(){
+        return $this->text;
+    }
+
     /**
      * Cast line to string
      *
